@@ -57,7 +57,7 @@ alert(message);
 
 setTimeout(() => {
     window.location.href = 'finalroast.html';  // Redirect to the final roast page
-}, 1500);
+}, 500);
     
 }
 // Brutally Savage Roast Messages
