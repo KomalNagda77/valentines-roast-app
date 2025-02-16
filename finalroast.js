@@ -52,7 +52,7 @@ function breakHeart() {
 
 // Function to restart the game
 function restartGame() {
-    window.location.href = "valentine.html"; // Redirects to home page
+    window.location.href = "index.html"; // Redirects to home page
 }
 
 // Start animation when page loads
