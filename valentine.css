@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* General Page Styling */
+body {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: #FFF0F3;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 30px;  /* Reduced padding-top to move everything up */
+    color: #590D22;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 80px; /* Reduced from 100px to 80px */
+    color: #800F2F;
+    animation: pulse 1.5s infinite;
+    margin-bottom: 20px; /* Reduced margin-bottom to bring text closer to buttons */
+    text-shadow: 4px 4px 10px #A4133C;
+    margin-top: -30px; /* Moves heading slightly up */
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Button Container */
+.buttons {
+    margin-top: 10px; /* Reduced from 20px to bring buttons closer to heading */
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General Button Styling */
+button {
+    padding: 20px 40px;
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 15px;
+    background-color: #FF4D6D;
+    color: white;
+    box-shadow: 4px 4px 10px #A4133C;
+}
+
+button:hover {
+    background-color: #A4133C;
+    box-shadow: 6px 6px 12px #A4133C;
+}
+
+/* Floating Hearts Animation */
+@keyframes floatingHearts {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-100vh); opacity: 0; }
+}
+
+.heart {
+    position: absolute;
+    color: #FF4D6D;
+    font-size: 24px;
+    animation: floatingHearts 5s linear infinite;
+}
+/* Final Page Styling */
+/* Final Page Styling */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Roast Text */
+.roast-text {
+    font-size: 30px;
+    color: #800F2F;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 8px #A4133C;
+    animation: pulse 1.5s infinite;
+}
+
+/* Heart Styling */
+#heart {
+    font-size: 80px;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 20px;
+}
+
+/* Final Messages */
+.final-message {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #590D22;
+}
+
+/* Shake Effect */
+@keyframes shake {
+    0% { transform: translate(0px, 0px); }
+    25% { transform: translate(-5px, 5px); }
+    50% { transform: translate(5px, -5px); }
+    75% { transform: translate(-5px, 5px); }
+    100% { transform: translate(0px, 0px); }
+}
+
+.shake {
+    animation: shake 0.3s infinite;
+}
+
+/* Replay Button */
+.replay-btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #FF4D6D;
+    color: white;
+    box-shadow: 3px 3px 8px #A4133C;
+}
+
+.replay-btn:hover {
+    background-color: #A4133C;
+    box-shadow: 5px 5px 10px #A4133C;
+}
+
+
+
+

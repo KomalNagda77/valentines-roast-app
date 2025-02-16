@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over, You're Still Single! 😂</title>
+    <link rel="stylesheet" href="valentine.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script> <!-- Confetti Library -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="roast-text">Congratulations! You survived another Valentine’s Day alone! 🎉</h1>
+        
+        <!-- Heart that will break -->
+        <div id="heart-container">
+            <span id="heart">❤️</span>
+        </div>
+
+        <!-- Roast message appears here -->
+        <p id="final-message" class="final-message"></p>
+
+        <!-- Try Again Button -->
+        <button class="replay-btn" onclick="restartGame()">Try Again (Like It’ll Help) 🔄</button>
+    </div>
+
+    <script src="finalroast.js"></script> <!-- New separate JS file for final page -->
+</body>
+</html>
+
